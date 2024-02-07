@@ -1,0 +1,25 @@
+.menuItemSmall{
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 40px;
+    padding: 2px;
+    cursor: pointer;
+  }
+  .smallScreenMenus {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 80px;
+    right: 120px;
+  }
+  .menuItemSmall{
+      padding: 10px 50px;
+      margin-bottom: 1px;
+      border-radius: 5px;
+      background:  rgb(9, 120, 224);
+      border-bottom: 1px solid  rgb(9, 120, 224);
+  }
+  .menuItemSmall:hover{
+      background: rgb(7, 98, 183);
+      scale: 1.1;
+  }
